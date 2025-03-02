@@ -1,0 +1,50 @@
+{C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/ctrl_mat_mult.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/ctrl_mat_mult.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ctrl_mat_mult
+
+Top level modules:
+	ctrl_mat_mult
+
+} {} {}} {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/tb_files/tb_lab6.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/tb_files/tb_lab6.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_lab6
+
+Top level modules:
+	tb_lab6
+
+} {} {}} {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/AddrReg.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/AddrReg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AddrReg
+
+Top level modules:
+	AddrReg
+
+} {} {}} {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/MAC.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/MAC.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MAC
+
+Top level modules:
+	MAC
+
+} {} {}} {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMOUTPUT.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMOUTPUT.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAMOUTPUT
+
+Top level modules:
+	RAMOUTPUT
+
+} {} {}} {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/Creg.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/Creg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Creg
+
+Top level modules:
+	Creg
+
+} {} {}} {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/highlvl.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/highlvl.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module toplevel
+
+Top level modules:
+	toplevel
+
+} {} {}}

@@ -1,0 +1,21 @@
+module S_reg (
+	input [7:0] A,
+	input [7:0] B,
+	input clk, rst, macc_clear,
+	
+	output reg signed [18:0] acc
+);
+	
+    wire signed [15:0] product;
+    assign product = a * b;
+    
+    always @(posedge clk or posedge reset) begin
+        if (reset)
+            acc <= 19'b0;
+        else if (macc_clear)
+            acc <= product;
+        else
+            acc <= acc + product;
+    end 
+
+endmodule

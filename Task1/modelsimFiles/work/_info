@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vMAC
+Z0 !s110 1740013665
+!i10b 1
+!s100 VjjmPmlF1Hhf2NBgBhOeI3
+I2Md<>hFEC1laQU2K;kVUo1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task1/modelsimFiles
+w1740013647
+8C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task1/synthesis/Components/MAC.v
+FC:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task1/synthesis/Components/MAC.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1740013665.000000
+!s107 C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task1/synthesis/Components/MAC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task1/synthesis/Components/MAC.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@m@a@c
+vMAC_tb
+R0
+!i10b 1
+!s100 <]0oh7;dK0]UN3H;NfQHL2
+IZdjhH4Kd<Qz[dc7WO7HPQ1
+R1
+R2
+w1740011649
+8C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task1/tb_files/tb_MAC.v
+FC:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task1/tb_files/tb_MAC.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task1/tb_files/tb_MAC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task1/tb_files/tb_MAC.v|
+!i113 1
+R5
+R6
+n@m@a@c_tb

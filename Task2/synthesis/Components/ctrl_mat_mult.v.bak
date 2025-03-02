@@ -1,0 +1,45 @@
+module ctrl_mat_mult (
+	input Start, rst, clk,
+	
+	output Done, ClkCyclCnt,
+	output MAC_CLR, loadA, loadB, AddressC
+
+);
+
+	
+	 reg [1:0] state, nextstate;
+    
+    // State encoding
+    localparam S0 = 2'b00;  // Initial state
+    localparam S1 = 2'b01;  // multiplication state
+    localparam S2 = 2'b10;  // Done state
+    
+    // State transition on clock edge
+    always @(posedge clk or negedge rst) begin
+        if (!rst)
+            state <= S0;
+        else
+            state <= nextstate;
+    end
+    
+    // Next state logic and output assignments
+    always @(*) begin
+        // Default outputs
+        nextstate = state;  // Default to staying in current state
+        
+        case (state)
+            S0: begin
+
+            end
+
+            S1: begin
+
+            end
+
+				S2: begin
+
+				end
+
+            default: nextstate = S0;
+        endcase
+    end
