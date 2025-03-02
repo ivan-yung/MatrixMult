@@ -10,6 +10,8 @@ module ctrl_mat_mult (
 	
 	reg [1:0] state, nextstate;
 
+    reg MAC_CLR_C;
+
     reg [10:0] mult_count;
 
     // State encoding
@@ -19,6 +21,9 @@ module ctrl_mat_mult (
     
     // State transition on clock edge
     always @(posedge clk or posedge reset) begin
+
+        MAC_CLR <= MAC_CLR_C;
+
         if (reset) begin
             state <= S0;
             clock_count <= 0;
@@ -39,7 +44,7 @@ module ctrl_mat_mult (
         // Default outputs
         nextstate = state;  // Default to staying in current state
 		done = 0;
-	    MAC_CLR = 0;
+	    MAC_CLR_C = 0;
 	    Load = 0;
         wireOut = 0;
 		
@@ -59,7 +64,7 @@ module ctrl_mat_mult (
 
                 if (mult_count % 8 == 0) begin  //delay mac clr by one cyc.e???!!
                     //mac clear for next matrix op
-                    MAC_CLR = 1;
+                    MAC_CLR_C = 1;
                     wireOut = 1;
                     nextstate = S1;
 

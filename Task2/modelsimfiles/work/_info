@@ -31,7 +31,7 @@ Z7 o-work work
 Z8 tCvgOpt 0
 n@add@areg
 vAddrReg
-Z9 !s110 1740881683
+Z9 !s110 1740889009
 !i10b 1
 !s100 INY051QfHmcGUKF2@=96I2
 IS0Ok7=oNAH28T=LhToima3
@@ -45,7 +45,7 @@ R4
 r1
 !s85 0
 31
-Z10 !s108 1740881683.000000
+Z10 !s108 1740889009.000000
 R5
 R6
 !i113 1
@@ -119,13 +119,13 @@ R7
 R8
 n@creg
 vctrl_mat_mult
-!s110 1740881682
+!s110 1740889004
 !i10b 1
-!s100 @3YHY9EmVN]R6aNg2LbGK1
-IjACZ[YT1<k1B@?6b::`j93
+!s100 eSo`WCck234TSXa0OBTCg1
+IZmF5Le041X2n_jmK@8K1<1
 R0
 R1
-w1740880859
+w1740888899
 8C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/ctrl_mat_mult.v
 FC:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/ctrl_mat_mult.v
 L0 1
@@ -133,14 +133,14 @@ R4
 r1
 !s85 0
 31
-!s108 1740881682.000000
+Z13 !s108 1740889004.000000
 !s107 C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/ctrl_mat_mult.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/ctrl_mat_mult.v|
 !i113 1
 R7
 R8
 vMAC
-R9
+!s110 1740889007
 !i10b 1
 !s100 VjjmPmlF1Hhf2NBgBhOeI3
 IJP>WNli7Pz;eeIdVDO=Ed1
@@ -154,7 +154,7 @@ R4
 r1
 !s85 0
 31
-R10
+!s108 1740889007.000000
 !s107 C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/MAC.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/MAC.v|
 !i113 1
@@ -191,21 +191,21 @@ Ig^62R]c3fJ7MlC][Ic7nG1
 R0
 R1
 w1740610581
-Z13 8C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMC.v
-Z14 FC:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMC.v
+Z14 8C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMC.v
+Z15 FC:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMC.v
 L0 1
 R4
 r1
 !s85 0
 31
 !s108 1740612435.000000
-Z15 !s107 C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMC.v|
-Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMC.v|
+Z16 !s107 C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMC.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMC.v|
 !i113 1
 R7
 R8
 vRAMA
-R9
+Z18 !s110 1740889005
 !i10b 1
 !s100 ES?`eOLAoHYUUAkcloU1;0
 I_ZWYR@1gZ@ea]0ocJ6D]j0
@@ -219,7 +219,7 @@ R4
 r1
 !s85 0
 31
-R10
+Z19 !s108 1740889005.000000
 !s107 C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMA.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMA.v|
 !i113 1
@@ -227,7 +227,7 @@ R7
 R8
 n@r@a@m@a
 vRAMB
-R9
+R18
 !i10b 1
 !s100 Z]cH]4aX60S?8YWo[MmPC1
 I9n=:]`:_@_[WfoRfSJ>;U0
@@ -241,7 +241,7 @@ R4
 r1
 !s85 0
 31
-R10
+R19
 !s107 C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMB.v|
 !i113 1
@@ -256,16 +256,16 @@ IC0zNRXNTFz<L_:Rdd077e3
 R0
 R1
 w1740612481
-R13
 R14
+R15
 L0 1
 R4
 r1
 !s85 0
 31
 !s108 1740612594.000000
-R15
 R16
+R17
 !i113 1
 R7
 R8
@@ -277,7 +277,7 @@ R9
 I3J7il^1HH=WTWj;GI8P8B2
 R0
 R1
-w1740871762
+w1740888994
 8C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMOUTPUT.v
 FC:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMOUTPUT.v
 L0 1
@@ -285,7 +285,7 @@ R4
 r1
 !s85 0
 31
-R10
+!s108 1740889008.000000
 !s107 C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMOUTPUT.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMOUTPUT.v|
 !i113 1
@@ -293,7 +293,7 @@ R7
 R8
 n@r@a@m@o@u@t@p@u@t
 vtb_lab6
-R9
+R18
 !i10b 1
 !s100 XY:UaOIfDo2bRDfV]cH7W0
 I_E]18X3PJ2]]W[LD]k=Ga3
@@ -307,14 +307,14 @@ R4
 r1
 !s85 0
 31
-R10
+R19
 !s107 C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/tb_files/tb_lab6.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/tb_files/tb_lab6.v|
 !i113 1
 R7
 R8
 vtoplevel
-R9
+R18
 !i10b 1
 !s100 YZ1S0c6ij[T@K4N[l5ST22
 I[WBa3Z8o4g8V[J^5g=?4G0
@@ -328,7 +328,7 @@ R4
 r1
 !s85 0
 31
-R10
+R13
 !s107 C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/highlvl.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/highlvl.v|
 !i113 1
