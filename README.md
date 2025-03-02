@@ -1,4 +1,4 @@
-**MatrixAccel** \
+**MatrixAccel**
 
 
 Matrix multiplication implimented in hardware using verilog hardware description language.\
