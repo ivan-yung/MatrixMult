@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/modelsimfiles
+vAddrReg_DP
+Z0 !s110 1741294340
+!i10b 1
+!s100 JD:3[d`T5?kYBZE]Jn4[a1
+Ikh?KdY59`5A>Joc_aI3b<1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/modelsimfiles/addrtest
+w1741224384
+8C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/synthesis/components/AddrReg_DP.v
+FC:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/synthesis/components/AddrReg_DP.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1741294340.000000
+!s107 C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/synthesis/components/AddrReg_DP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/synthesis/components/AddrReg_DP.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@addr@reg_@d@p
+vtb_AddrReg
+R0
+!i10b 1
+!s100 VM87<of0@0Wm`hDDCdFQn1
+I24KN;Q2iBn?oT;bfE]nh22
+R1
+R2
+w1741294186
+8C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/tb/tb_AddrReg.v
+FC:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/tb/tb_AddrReg.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1741294339.000000
+!s107 C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/tb/tb_AddrReg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/tb/tb_AddrReg.v|
+!i113 1
+R4
+R5
+ntb_@addr@reg

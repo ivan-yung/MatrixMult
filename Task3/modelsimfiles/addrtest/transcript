@@ -1,0 +1,949 @@
+vsim -gui work.tb_AddrReg
+# vsim -gui work.tb_AddrReg 
+# Start time: 12:33:03 on Mar 06,2025
+# Loading work.tb_AddrReg
+# Loading work.AddrReg_DP
+add wave -position insertpoint  \
+sim:/tb_AddrReg/addrA \
+sim:/tb_AddrReg/addrB1 \
+sim:/tb_AddrReg/addrB2
+# Compile of tb_AddrReg.v was successful.
+run -all
+# addrA,   0 addrB1,   0, addrB2,   8
+# addrA,   8 addrB1,   1, addrB2,   9
+# addrA,  16 addrB1,   2, addrB2,  10
+# addrA,  24 addrB1,   3, addrB2,  11
+# addrA,  32 addrB1,   4, addrB2,  12
+# addrA,  40 addrB1,   5, addrB2,  13
+# addrA,  48 addrB1,   6, addrB2,  14
+# addrA,  56 addrB1,   7, addrB2,  15
+# addrA,   0 addrB1,  16, addrB2,  24
+# addrA,   8 addrB1,  17, addrB2,  25
+# addrA,  16 addrB1,  18, addrB2,  26
+# addrA,  24 addrB1,  19, addrB2,  27
+# addrA,  32 addrB1,  20, addrB2,  28
+# addrA,  40 addrB1,  21, addrB2,  29
+# addrA,  48 addrB1,  22, addrB2,  30
+# addrA,  56 addrB1,  23, addrB2,  31
+# addrA,   0 addrB1,  32, addrB2,  40
+# addrA,   8 addrB1,  33, addrB2,  41
+# addrA,  16 addrB1,  34, addrB2,  42
+# addrA,  24 addrB1,  35, addrB2,  43
+# addrA,  32 addrB1,  36, addrB2,  44
+# addrA,  40 addrB1,  37, addrB2,  45
+# addrA,  48 addrB1,  38, addrB2,  46
+# addrA,  56 addrB1,  39, addrB2,  47
+# addrA,   1 addrB1,   0, addrB2,   8
+# addrA,   9 addrB1,   1, addrB2,   9
+# addrA,  17 addrB1,   2, addrB2,  10
+# addrA,  25 addrB1,   3, addrB2,  11
+# addrA,  33 addrB1,   4, addrB2,  12
+# addrA,  41 addrB1,   5, addrB2,  13
+# addrA,  49 addrB1,   6, addrB2,  14
+# addrA,  57 addrB1,   7, addrB2,  15
+# addrA,   1 addrB1,  16, addrB2,  24
+# addrA,   9 addrB1,  17, addrB2,  25
+# addrA,  17 addrB1,  18, addrB2,  26
+# addrA,  25 addrB1,  19, addrB2,  27
+# addrA,  33 addrB1,  20, addrB2,  28
+# addrA,  41 addrB1,  21, addrB2,  29
+# addrA,  49 addrB1,  22, addrB2,  30
+# addrA,  57 addrB1,  23, addrB2,  31
+# addrA,   1 addrB1,  32, addrB2,  40
+# addrA,   9 addrB1,  33, addrB2,  41
+# addrA,  17 addrB1,  34, addrB2,  42
+# addrA,  25 addrB1,  35, addrB2,  43
+# addrA,  33 addrB1,  36, addrB2,  44
+# addrA,  41 addrB1,  37, addrB2,  45
+# addrA,  49 addrB1,  38, addrB2,  46
+# addrA,  57 addrB1,  39, addrB2,  47
+# addrA,   2 addrB1,   0, addrB2,   8
+# addrA,  10 addrB1,   1, addrB2,   9
+# addrA,  18 addrB1,   2, addrB2,  10
+# addrA,  26 addrB1,   3, addrB2,  11
+# addrA,  34 addrB1,   4, addrB2,  12
+# addrA,  42 addrB1,   5, addrB2,  13
+# addrA,  50 addrB1,   6, addrB2,  14
+# addrA,  58 addrB1,   7, addrB2,  15
+# addrA,   2 addrB1,  16, addrB2,  24
+# addrA,  10 addrB1,  17, addrB2,  25
+# addrA,  18 addrB1,  18, addrB2,  26
+# addrA,  26 addrB1,  19, addrB2,  27
+# addrA,  34 addrB1,  20, addrB2,  28
+# addrA,  42 addrB1,  21, addrB2,  29
+# addrA,  50 addrB1,  22, addrB2,  30
+# addrA,  58 addrB1,  23, addrB2,  31
+# addrA,   2 addrB1,  32, addrB2,  40
+# addrA,  10 addrB1,  33, addrB2,  41
+# addrA,  18 addrB1,  34, addrB2,  42
+# addrA,  26 addrB1,  35, addrB2,  43
+# addrA,  34 addrB1,  36, addrB2,  44
+# addrA,  42 addrB1,  37, addrB2,  45
+# addrA,  50 addrB1,  38, addrB2,  46
+# addrA,  58 addrB1,  39, addrB2,  47
+# addrA,   3 addrB1,   0, addrB2,   8
+# addrA,  11 addrB1,   1, addrB2,   9
+# addrA,  19 addrB1,   2, addrB2,  10
+# addrA,  27 addrB1,   3, addrB2,  11
+# addrA,  35 addrB1,   4, addrB2,  12
+# addrA,  43 addrB1,   5, addrB2,  13
+# addrA,  51 addrB1,   6, addrB2,  14
+# addrA,  59 addrB1,   7, addrB2,  15
+# addrA,   3 addrB1,  16, addrB2,  24
+# addrA,  11 addrB1,  17, addrB2,  25
+# addrA,  19 addrB1,  18, addrB2,  26
+# addrA,  27 addrB1,  19, addrB2,  27
+# addrA,  35 addrB1,  20, addrB2,  28
+# addrA,  43 addrB1,  21, addrB2,  29
+# addrA,  51 addrB1,  22, addrB2,  30
+# addrA,  59 addrB1,  23, addrB2,  31
+# addrA,   3 addrB1,  32, addrB2,  40
+# addrA,  11 addrB1,  33, addrB2,  41
+# addrA,  19 addrB1,  34, addrB2,  42
+# addrA,  27 addrB1,  35, addrB2,  43
+# addrA,  35 addrB1,  36, addrB2,  44
+# addrA,  43 addrB1,  37, addrB2,  45
+# addrA,  51 addrB1,  38, addrB2,  46
+# addrA,  59 addrB1,  39, addrB2,  47
+# addrA,   4 addrB1,   0, addrB2,   8
+# addrA,  12 addrB1,   1, addrB2,   9
+# addrA,  20 addrB1,   2, addrB2,  10
+# addrA,  28 addrB1,   3, addrB2,  11
+# addrA,  36 addrB1,   4, addrB2,  12
+# addrA,  44 addrB1,   5, addrB2,  13
+# addrA,  52 addrB1,   6, addrB2,  14
+# addrA,  60 addrB1,   7, addrB2,  15
+# addrA,   4 addrB1,  16, addrB2,  24
+# addrA,  12 addrB1,  17, addrB2,  25
+# addrA,  20 addrB1,  18, addrB2,  26
+# addrA,  28 addrB1,  19, addrB2,  27
+# addrA,  36 addrB1,  20, addrB2,  28
+# addrA,  44 addrB1,  21, addrB2,  29
+# addrA,  52 addrB1,  22, addrB2,  30
+# addrA,  60 addrB1,  23, addrB2,  31
+# addrA,   4 addrB1,  32, addrB2,  40
+# addrA,  12 addrB1,  33, addrB2,  41
+# addrA,  20 addrB1,  34, addrB2,  42
+# addrA,  28 addrB1,  35, addrB2,  43
+# addrA,  36 addrB1,  36, addrB2,  44
+# addrA,  44 addrB1,  37, addrB2,  45
+# addrA,  52 addrB1,  38, addrB2,  46
+# addrA,  60 addrB1,  39, addrB2,  47
+# addrA,   5 addrB1,   0, addrB2,   8
+# addrA,  13 addrB1,   1, addrB2,   9
+# addrA,  21 addrB1,   2, addrB2,  10
+# addrA,  29 addrB1,   3, addrB2,  11
+# addrA,  37 addrB1,   4, addrB2,  12
+# addrA,  45 addrB1,   5, addrB2,  13
+# addrA,  53 addrB1,   6, addrB2,  14
+# addrA,  61 addrB1,   7, addrB2,  15
+# addrA,   5 addrB1,  16, addrB2,  24
+# addrA,  13 addrB1,  17, addrB2,  25
+# addrA,  21 addrB1,  18, addrB2,  26
+# addrA,  29 addrB1,  19, addrB2,  27
+# addrA,  37 addrB1,  20, addrB2,  28
+# addrA,  45 addrB1,  21, addrB2,  29
+# addrA,  53 addrB1,  22, addrB2,  30
+# addrA,  61 addrB1,  23, addrB2,  31
+# addrA,   5 addrB1,  32, addrB2,  40
+# addrA,  13 addrB1,  33, addrB2,  41
+# addrA,  21 addrB1,  34, addrB2,  42
+# addrA,  29 addrB1,  35, addrB2,  43
+# addrA,  37 addrB1,  36, addrB2,  44
+# addrA,  45 addrB1,  37, addrB2,  45
+# addrA,  53 addrB1,  38, addrB2,  46
+# addrA,  61 addrB1,  39, addrB2,  47
+# addrA,   6 addrB1,   0, addrB2,   8
+# addrA,  14 addrB1,   1, addrB2,   9
+# addrA,  22 addrB1,   2, addrB2,  10
+# addrA,  30 addrB1,   3, addrB2,  11
+# addrA,  38 addrB1,   4, addrB2,  12
+# addrA,  46 addrB1,   5, addrB2,  13
+# addrA,  54 addrB1,   6, addrB2,  14
+# addrA,  62 addrB1,   7, addrB2,  15
+# addrA,   6 addrB1,  16, addrB2,  24
+# addrA,  14 addrB1,  17, addrB2,  25
+# addrA,  22 addrB1,  18, addrB2,  26
+# addrA,  30 addrB1,  19, addrB2,  27
+# addrA,  38 addrB1,  20, addrB2,  28
+# addrA,  46 addrB1,  21, addrB2,  29
+# addrA,  54 addrB1,  22, addrB2,  30
+# addrA,  62 addrB1,  23, addrB2,  31
+# addrA,   6 addrB1,  32, addrB2,  40
+# addrA,  14 addrB1,  33, addrB2,  41
+# addrA,  22 addrB1,  34, addrB2,  42
+# addrA,  30 addrB1,  35, addrB2,  43
+# addrA,  38 addrB1,  36, addrB2,  44
+# addrA,  46 addrB1,  37, addrB2,  45
+# addrA,  54 addrB1,  38, addrB2,  46
+# addrA,  62 addrB1,  39, addrB2,  47
+# addrA,   7 addrB1,   0, addrB2,   8
+# addrA,  15 addrB1,   1, addrB2,   9
+# addrA,  23 addrB1,   2, addrB2,  10
+# addrA,  31 addrB1,   3, addrB2,  11
+# addrA,  39 addrB1,   4, addrB2,  12
+# addrA,  47 addrB1,   5, addrB2,  13
+# addrA,  55 addrB1,   6, addrB2,  14
+# addrA,  63 addrB1,   7, addrB2,  15
+# addrA,   7 addrB1,  16, addrB2,  24
+# addrA,  15 addrB1,  17, addrB2,  25
+# addrA,  23 addrB1,  18, addrB2,  26
+# addrA,  31 addrB1,  19, addrB2,  27
+# addrA,  39 addrB1,  20, addrB2,  28
+# addrA,  47 addrB1,  21, addrB2,  29
+# addrA,  55 addrB1,  22, addrB2,  30
+# addrA,  63 addrB1,  23, addrB2,  31
+# addrA,   7 addrB1,  32, addrB2,  40
+# addrA,  15 addrB1,  33, addrB2,  41
+# addrA,  23 addrB1,  34, addrB2,  42
+# addrA,  31 addrB1,  35, addrB2,  43
+# addrA,  39 addrB1,  36, addrB2,  44
+# addrA,  47 addrB1,  37, addrB2,  45
+# addrA,  55 addrB1,  38, addrB2,  46
+# addrA,  63 addrB1,  39, addrB2,  47
+# ** Note: $stop    : C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/tb/tb_AddrReg.v(37)
+#    Time: 5200 ps  Iteration: 0  Instance: /tb_AddrReg
+# Break in Module tb_AddrReg at C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/tb/tb_AddrReg.v line 37
+# Compile of AddrReg_DP.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of tb_AddrReg.v was successful.
+# Compile of AddrReg_DP.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_AddrReg
+# Loading work.AddrReg_DP
+# Compile of tb_AddrReg.v was successful.
+# Compile of AddrReg_DP.v was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+# addrA,   0 addrB1,   0, addrB2,   8
+# addrA,   8 addrB1,   1, addrB2,   9
+# addrA,  16 addrB1,   2, addrB2,  10
+# addrA,  24 addrB1,   3, addrB2,  11
+# addrA,  32 addrB1,   4, addrB2,  12
+# addrA,  40 addrB1,   5, addrB2,  13
+# addrA,  48 addrB1,   6, addrB2,  14
+# newcol
+# addrA,  56 addrB1,   7, addrB2,  15
+# addrA,   0 addrB1,  16, addrB2,  24
+# addrA,   8 addrB1,  17, addrB2,  25
+# addrA,  16 addrB1,  18, addrB2,  26
+# addrA,  24 addrB1,  19, addrB2,  27
+# addrA,  32 addrB1,  20, addrB2,  28
+# addrA,  40 addrB1,  21, addrB2,  29
+# addrA,  48 addrB1,  22, addrB2,  30
+# newcol
+# addrA,  56 addrB1,  23, addrB2,  31
+# addrA,   0 addrB1,  32, addrB2,  40
+# addrA,   8 addrB1,  33, addrB2,  41
+# addrA,  16 addrB1,  34, addrB2,  42
+# addrA,  24 addrB1,  35, addrB2,  43
+# addrA,  32 addrB1,  36, addrB2,  44
+# addrA,  40 addrB1,  37, addrB2,  45
+# addrA,  48 addrB1,  38, addrB2,  46
+# newcol
+# addrA,  56 addrB1,  39, addrB2,  47
+# addrA,   1 addrB1,   0, addrB2,   8
+# addrA,   9 addrB1,   1, addrB2,   9
+# addrA,  17 addrB1,   2, addrB2,  10
+# addrA,  25 addrB1,   3, addrB2,  11
+# addrA,  33 addrB1,   4, addrB2,  12
+# addrA,  41 addrB1,   5, addrB2,  13
+# addrA,  49 addrB1,   6, addrB2,  14
+# newcol
+# addrA,  57 addrB1,   7, addrB2,  15
+# addrA,   1 addrB1,  16, addrB2,  24
+# addrA,   9 addrB1,  17, addrB2,  25
+# addrA,  17 addrB1,  18, addrB2,  26
+# addrA,  25 addrB1,  19, addrB2,  27
+# addrA,  33 addrB1,  20, addrB2,  28
+# addrA,  41 addrB1,  21, addrB2,  29
+# addrA,  49 addrB1,  22, addrB2,  30
+# newcol
+# addrA,  57 addrB1,  23, addrB2,  31
+# addrA,   1 addrB1,  32, addrB2,  40
+# addrA,   9 addrB1,  33, addrB2,  41
+# addrA,  17 addrB1,  34, addrB2,  42
+# addrA,  25 addrB1,  35, addrB2,  43
+# addrA,  33 addrB1,  36, addrB2,  44
+# addrA,  41 addrB1,  37, addrB2,  45
+# addrA,  49 addrB1,  38, addrB2,  46
+# newcol
+# addrA,  57 addrB1,  39, addrB2,  47
+# addrA,   2 addrB1,   0, addrB2,   8
+# addrA,  10 addrB1,   1, addrB2,   9
+# addrA,  18 addrB1,   2, addrB2,  10
+# addrA,  26 addrB1,   3, addrB2,  11
+# addrA,  34 addrB1,   4, addrB2,  12
+# addrA,  42 addrB1,   5, addrB2,  13
+# addrA,  50 addrB1,   6, addrB2,  14
+# newcol
+# addrA,  58 addrB1,   7, addrB2,  15
+# addrA,   2 addrB1,  16, addrB2,  24
+# addrA,  10 addrB1,  17, addrB2,  25
+# addrA,  18 addrB1,  18, addrB2,  26
+# addrA,  26 addrB1,  19, addrB2,  27
+# addrA,  34 addrB1,  20, addrB2,  28
+# addrA,  42 addrB1,  21, addrB2,  29
+# addrA,  50 addrB1,  22, addrB2,  30
+# newcol
+# addrA,  58 addrB1,  23, addrB2,  31
+# addrA,   2 addrB1,  32, addrB2,  40
+# addrA,  10 addrB1,  33, addrB2,  41
+# addrA,  18 addrB1,  34, addrB2,  42
+# addrA,  26 addrB1,  35, addrB2,  43
+# addrA,  34 addrB1,  36, addrB2,  44
+# addrA,  42 addrB1,  37, addrB2,  45
+# addrA,  50 addrB1,  38, addrB2,  46
+# newcol
+# addrA,  58 addrB1,  39, addrB2,  47
+# addrA,   3 addrB1,   0, addrB2,   8
+# addrA,  11 addrB1,   1, addrB2,   9
+# addrA,  19 addrB1,   2, addrB2,  10
+# addrA,  27 addrB1,   3, addrB2,  11
+# addrA,  35 addrB1,   4, addrB2,  12
+# addrA,  43 addrB1,   5, addrB2,  13
+# addrA,  51 addrB1,   6, addrB2,  14
+# newcol
+# addrA,  59 addrB1,   7, addrB2,  15
+# addrA,   3 addrB1,  16, addrB2,  24
+# addrA,  11 addrB1,  17, addrB2,  25
+# addrA,  19 addrB1,  18, addrB2,  26
+# addrA,  27 addrB1,  19, addrB2,  27
+# addrA,  35 addrB1,  20, addrB2,  28
+# addrA,  43 addrB1,  21, addrB2,  29
+# addrA,  51 addrB1,  22, addrB2,  30
+# newcol
+# addrA,  59 addrB1,  23, addrB2,  31
+# addrA,   3 addrB1,  32, addrB2,  40
+# addrA,  11 addrB1,  33, addrB2,  41
+# addrA,  19 addrB1,  34, addrB2,  42
+# addrA,  27 addrB1,  35, addrB2,  43
+# addrA,  35 addrB1,  36, addrB2,  44
+# addrA,  43 addrB1,  37, addrB2,  45
+# addrA,  51 addrB1,  38, addrB2,  46
+# newcol
+# addrA,  59 addrB1,  39, addrB2,  47
+# addrA,   4 addrB1,   0, addrB2,   8
+# addrA,  12 addrB1,   1, addrB2,   9
+# addrA,  20 addrB1,   2, addrB2,  10
+# addrA,  28 addrB1,   3, addrB2,  11
+# addrA,  36 addrB1,   4, addrB2,  12
+# addrA,  44 addrB1,   5, addrB2,  13
+# addrA,  52 addrB1,   6, addrB2,  14
+# newcol
+# addrA,  60 addrB1,   7, addrB2,  15
+# addrA,   4 addrB1,  16, addrB2,  24
+# addrA,  12 addrB1,  17, addrB2,  25
+# addrA,  20 addrB1,  18, addrB2,  26
+# addrA,  28 addrB1,  19, addrB2,  27
+# addrA,  36 addrB1,  20, addrB2,  28
+# addrA,  44 addrB1,  21, addrB2,  29
+# addrA,  52 addrB1,  22, addrB2,  30
+# newcol
+# addrA,  60 addrB1,  23, addrB2,  31
+# addrA,   4 addrB1,  32, addrB2,  40
+# addrA,  12 addrB1,  33, addrB2,  41
+# addrA,  20 addrB1,  34, addrB2,  42
+# addrA,  28 addrB1,  35, addrB2,  43
+# addrA,  36 addrB1,  36, addrB2,  44
+# addrA,  44 addrB1,  37, addrB2,  45
+# addrA,  52 addrB1,  38, addrB2,  46
+# newcol
+# addrA,  60 addrB1,  39, addrB2,  47
+# addrA,   5 addrB1,   0, addrB2,   8
+# addrA,  13 addrB1,   1, addrB2,   9
+# addrA,  21 addrB1,   2, addrB2,  10
+# addrA,  29 addrB1,   3, addrB2,  11
+# addrA,  37 addrB1,   4, addrB2,  12
+# addrA,  45 addrB1,   5, addrB2,  13
+# addrA,  53 addrB1,   6, addrB2,  14
+# newcol
+# addrA,  61 addrB1,   7, addrB2,  15
+# addrA,   5 addrB1,  16, addrB2,  24
+# addrA,  13 addrB1,  17, addrB2,  25
+# addrA,  21 addrB1,  18, addrB2,  26
+# addrA,  29 addrB1,  19, addrB2,  27
+# addrA,  37 addrB1,  20, addrB2,  28
+# addrA,  45 addrB1,  21, addrB2,  29
+# addrA,  53 addrB1,  22, addrB2,  30
+# newcol
+# addrA,  61 addrB1,  23, addrB2,  31
+# addrA,   5 addrB1,  32, addrB2,  40
+# addrA,  13 addrB1,  33, addrB2,  41
+# addrA,  21 addrB1,  34, addrB2,  42
+# addrA,  29 addrB1,  35, addrB2,  43
+# addrA,  37 addrB1,  36, addrB2,  44
+# addrA,  45 addrB1,  37, addrB2,  45
+# addrA,  53 addrB1,  38, addrB2,  46
+# newcol
+# addrA,  61 addrB1,  39, addrB2,  47
+# addrA,   6 addrB1,   0, addrB2,   8
+# addrA,  14 addrB1,   1, addrB2,   9
+# addrA,  22 addrB1,   2, addrB2,  10
+# addrA,  30 addrB1,   3, addrB2,  11
+# addrA,  38 addrB1,   4, addrB2,  12
+# addrA,  46 addrB1,   5, addrB2,  13
+# addrA,  54 addrB1,   6, addrB2,  14
+# newcol
+# addrA,  62 addrB1,   7, addrB2,  15
+# addrA,   6 addrB1,  16, addrB2,  24
+# addrA,  14 addrB1,  17, addrB2,  25
+# addrA,  22 addrB1,  18, addrB2,  26
+# addrA,  30 addrB1,  19, addrB2,  27
+# addrA,  38 addrB1,  20, addrB2,  28
+# addrA,  46 addrB1,  21, addrB2,  29
+# addrA,  54 addrB1,  22, addrB2,  30
+# newcol
+# addrA,  62 addrB1,  23, addrB2,  31
+# addrA,   6 addrB1,  32, addrB2,  40
+# addrA,  14 addrB1,  33, addrB2,  41
+# addrA,  22 addrB1,  34, addrB2,  42
+# addrA,  30 addrB1,  35, addrB2,  43
+# addrA,  38 addrB1,  36, addrB2,  44
+# addrA,  46 addrB1,  37, addrB2,  45
+# addrA,  54 addrB1,  38, addrB2,  46
+# newcol
+# addrA,  62 addrB1,  39, addrB2,  47
+# addrA,   7 addrB1,   0, addrB2,   8
+# addrA,  15 addrB1,   1, addrB2,   9
+# addrA,  23 addrB1,   2, addrB2,  10
+# addrA,  31 addrB1,   3, addrB2,  11
+# addrA,  39 addrB1,   4, addrB2,  12
+# addrA,  47 addrB1,   5, addrB2,  13
+# addrA,  55 addrB1,   6, addrB2,  14
+# newcol
+# addrA,  63 addrB1,   7, addrB2,  15
+# addrA,   7 addrB1,  16, addrB2,  24
+# addrA,  15 addrB1,  17, addrB2,  25
+# addrA,  23 addrB1,  18, addrB2,  26
+# addrA,  31 addrB1,  19, addrB2,  27
+# addrA,  39 addrB1,  20, addrB2,  28
+# addrA,  47 addrB1,  21, addrB2,  29
+# addrA,  55 addrB1,  22, addrB2,  30
+# newcol
+# addrA,  63 addrB1,  23, addrB2,  31
+# addrA,   7 addrB1,  32, addrB2,  40
+# addrA,  15 addrB1,  33, addrB2,  41
+# addrA,  23 addrB1,  34, addrB2,  42
+# addrA,  31 addrB1,  35, addrB2,  43
+# addrA,  39 addrB1,  36, addrB2,  44
+# addrA,  47 addrB1,  37, addrB2,  45
+# addrA,  55 addrB1,  38, addrB2,  46
+# newcol
+# addrA,  63 addrB1,  39, addrB2,  47
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# ** Note: $stop    : C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/tb/tb_AddrReg.v(44)
+#    Time: 10190 ps  Iteration: 0  Instance: /tb_AddrReg
+# Break in Module tb_AddrReg at C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/tb/tb_AddrReg.v line 44
+# Compile of tb_AddrReg.v was successful.
+# Compile of AddrReg_DP.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_AddrReg
+# Loading work.AddrReg_DP
+# Compile of tb_AddrReg.v was successful.
+# Compile of AddrReg_DP.v was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+# addrA,   0 addrB1,   0, addrB2,   8
+# addrA,   8 addrB1,   1, addrB2,   9
+# addrA,  16 addrB1,   2, addrB2,  10
+# addrA,  24 addrB1,   3, addrB2,  11
+# addrA,  32 addrB1,   4, addrB2,  12
+# addrA,  40 addrB1,   5, addrB2,  13
+# newcol
+# addrA,  48 addrB1,   6, addrB2,  14
+# addrA,  56 addrB1,   7, addrB2,  15
+# addrA,   0 addrB1,  16, addrB2,  24
+# addrA,   8 addrB1,  17, addrB2,  25
+# addrA,  16 addrB1,  18, addrB2,  26
+# addrA,  24 addrB1,  19, addrB2,  27
+# addrA,  32 addrB1,  20, addrB2,  28
+# addrA,  40 addrB1,  21, addrB2,  29
+# newcol
+# addrA,  48 addrB1,  22, addrB2,  30
+# addrA,  56 addrB1,  23, addrB2,  31
+# addrA,   0 addrB1,  32, addrB2,  40
+# addrA,   8 addrB1,  33, addrB2,  41
+# addrA,  16 addrB1,  34, addrB2,  42
+# addrA,  24 addrB1,  35, addrB2,  43
+# addrA,  32 addrB1,  36, addrB2,  44
+# addrA,  40 addrB1,  37, addrB2,  45
+# newcol
+# addrA,  48 addrB1,  38, addrB2,  46
+# addrA,  56 addrB1,  39, addrB2,  47
+# addrA,   1 addrB1,   0, addrB2,   8
+# addrA,   9 addrB1,   1, addrB2,   9
+# addrA,  17 addrB1,   2, addrB2,  10
+# addrA,  25 addrB1,   3, addrB2,  11
+# addrA,  33 addrB1,   4, addrB2,  12
+# addrA,  41 addrB1,   5, addrB2,  13
+# newcol
+# addrA,  49 addrB1,   6, addrB2,  14
+# addrA,  57 addrB1,   7, addrB2,  15
+# addrA,   1 addrB1,  16, addrB2,  24
+# addrA,   9 addrB1,  17, addrB2,  25
+# addrA,  17 addrB1,  18, addrB2,  26
+# addrA,  25 addrB1,  19, addrB2,  27
+# addrA,  33 addrB1,  20, addrB2,  28
+# addrA,  41 addrB1,  21, addrB2,  29
+# newcol
+# addrA,  49 addrB1,  22, addrB2,  30
+# addrA,  57 addrB1,  23, addrB2,  31
+# addrA,   1 addrB1,  32, addrB2,  40
+# addrA,   9 addrB1,  33, addrB2,  41
+# addrA,  17 addrB1,  34, addrB2,  42
+# addrA,  25 addrB1,  35, addrB2,  43
+# addrA,  33 addrB1,  36, addrB2,  44
+# addrA,  41 addrB1,  37, addrB2,  45
+# newcol
+# addrA,  49 addrB1,  38, addrB2,  46
+# addrA,  57 addrB1,  39, addrB2,  47
+# addrA,   2 addrB1,   0, addrB2,   8
+# addrA,  10 addrB1,   1, addrB2,   9
+# addrA,  18 addrB1,   2, addrB2,  10
+# addrA,  26 addrB1,   3, addrB2,  11
+# addrA,  34 addrB1,   4, addrB2,  12
+# addrA,  42 addrB1,   5, addrB2,  13
+# newcol
+# addrA,  50 addrB1,   6, addrB2,  14
+# addrA,  58 addrB1,   7, addrB2,  15
+# addrA,   2 addrB1,  16, addrB2,  24
+# addrA,  10 addrB1,  17, addrB2,  25
+# addrA,  18 addrB1,  18, addrB2,  26
+# addrA,  26 addrB1,  19, addrB2,  27
+# addrA,  34 addrB1,  20, addrB2,  28
+# addrA,  42 addrB1,  21, addrB2,  29
+# newcol
+# addrA,  50 addrB1,  22, addrB2,  30
+# addrA,  58 addrB1,  23, addrB2,  31
+# addrA,   2 addrB1,  32, addrB2,  40
+# addrA,  10 addrB1,  33, addrB2,  41
+# addrA,  18 addrB1,  34, addrB2,  42
+# addrA,  26 addrB1,  35, addrB2,  43
+# addrA,  34 addrB1,  36, addrB2,  44
+# addrA,  42 addrB1,  37, addrB2,  45
+# newcol
+# addrA,  50 addrB1,  38, addrB2,  46
+# addrA,  58 addrB1,  39, addrB2,  47
+# addrA,   3 addrB1,   0, addrB2,   8
+# addrA,  11 addrB1,   1, addrB2,   9
+# addrA,  19 addrB1,   2, addrB2,  10
+# addrA,  27 addrB1,   3, addrB2,  11
+# addrA,  35 addrB1,   4, addrB2,  12
+# addrA,  43 addrB1,   5, addrB2,  13
+# newcol
+# addrA,  51 addrB1,   6, addrB2,  14
+# addrA,  59 addrB1,   7, addrB2,  15
+# addrA,   3 addrB1,  16, addrB2,  24
+# addrA,  11 addrB1,  17, addrB2,  25
+# addrA,  19 addrB1,  18, addrB2,  26
+# addrA,  27 addrB1,  19, addrB2,  27
+# addrA,  35 addrB1,  20, addrB2,  28
+# addrA,  43 addrB1,  21, addrB2,  29
+# newcol
+# addrA,  51 addrB1,  22, addrB2,  30
+# addrA,  59 addrB1,  23, addrB2,  31
+# addrA,   3 addrB1,  32, addrB2,  40
+# addrA,  11 addrB1,  33, addrB2,  41
+# addrA,  19 addrB1,  34, addrB2,  42
+# addrA,  27 addrB1,  35, addrB2,  43
+# addrA,  35 addrB1,  36, addrB2,  44
+# addrA,  43 addrB1,  37, addrB2,  45
+# newcol
+# addrA,  51 addrB1,  38, addrB2,  46
+# addrA,  59 addrB1,  39, addrB2,  47
+# addrA,   4 addrB1,   0, addrB2,   8
+# addrA,  12 addrB1,   1, addrB2,   9
+# addrA,  20 addrB1,   2, addrB2,  10
+# addrA,  28 addrB1,   3, addrB2,  11
+# addrA,  36 addrB1,   4, addrB2,  12
+# addrA,  44 addrB1,   5, addrB2,  13
+# newcol
+# addrA,  52 addrB1,   6, addrB2,  14
+# addrA,  60 addrB1,   7, addrB2,  15
+# addrA,   4 addrB1,  16, addrB2,  24
+# addrA,  12 addrB1,  17, addrB2,  25
+# addrA,  20 addrB1,  18, addrB2,  26
+# addrA,  28 addrB1,  19, addrB2,  27
+# addrA,  36 addrB1,  20, addrB2,  28
+# addrA,  44 addrB1,  21, addrB2,  29
+# newcol
+# addrA,  52 addrB1,  22, addrB2,  30
+# addrA,  60 addrB1,  23, addrB2,  31
+# addrA,   4 addrB1,  32, addrB2,  40
+# addrA,  12 addrB1,  33, addrB2,  41
+# addrA,  20 addrB1,  34, addrB2,  42
+# addrA,  28 addrB1,  35, addrB2,  43
+# addrA,  36 addrB1,  36, addrB2,  44
+# addrA,  44 addrB1,  37, addrB2,  45
+# newcol
+# addrA,  52 addrB1,  38, addrB2,  46
+# addrA,  60 addrB1,  39, addrB2,  47
+# addrA,   5 addrB1,   0, addrB2,   8
+# addrA,  13 addrB1,   1, addrB2,   9
+# addrA,  21 addrB1,   2, addrB2,  10
+# addrA,  29 addrB1,   3, addrB2,  11
+# addrA,  37 addrB1,   4, addrB2,  12
+# addrA,  45 addrB1,   5, addrB2,  13
+# newcol
+# addrA,  53 addrB1,   6, addrB2,  14
+# addrA,  61 addrB1,   7, addrB2,  15
+# addrA,   5 addrB1,  16, addrB2,  24
+# addrA,  13 addrB1,  17, addrB2,  25
+# addrA,  21 addrB1,  18, addrB2,  26
+# addrA,  29 addrB1,  19, addrB2,  27
+# addrA,  37 addrB1,  20, addrB2,  28
+# addrA,  45 addrB1,  21, addrB2,  29
+# newcol
+# addrA,  53 addrB1,  22, addrB2,  30
+# addrA,  61 addrB1,  23, addrB2,  31
+# addrA,   5 addrB1,  32, addrB2,  40
+# addrA,  13 addrB1,  33, addrB2,  41
+# addrA,  21 addrB1,  34, addrB2,  42
+# addrA,  29 addrB1,  35, addrB2,  43
+# addrA,  37 addrB1,  36, addrB2,  44
+# addrA,  45 addrB1,  37, addrB2,  45
+# newcol
+# addrA,  53 addrB1,  38, addrB2,  46
+# addrA,  61 addrB1,  39, addrB2,  47
+# addrA,   6 addrB1,   0, addrB2,   8
+# addrA,  14 addrB1,   1, addrB2,   9
+# addrA,  22 addrB1,   2, addrB2,  10
+# addrA,  30 addrB1,   3, addrB2,  11
+# addrA,  38 addrB1,   4, addrB2,  12
+# addrA,  46 addrB1,   5, addrB2,  13
+# newcol
+# addrA,  54 addrB1,   6, addrB2,  14
+# addrA,  62 addrB1,   7, addrB2,  15
+# addrA,   6 addrB1,  16, addrB2,  24
+# addrA,  14 addrB1,  17, addrB2,  25
+# addrA,  22 addrB1,  18, addrB2,  26
+# addrA,  30 addrB1,  19, addrB2,  27
+# addrA,  38 addrB1,  20, addrB2,  28
+# addrA,  46 addrB1,  21, addrB2,  29
+# newcol
+# addrA,  54 addrB1,  22, addrB2,  30
+# addrA,  62 addrB1,  23, addrB2,  31
+# addrA,   6 addrB1,  32, addrB2,  40
+# addrA,  14 addrB1,  33, addrB2,  41
+# addrA,  22 addrB1,  34, addrB2,  42
+# addrA,  30 addrB1,  35, addrB2,  43
+# addrA,  38 addrB1,  36, addrB2,  44
+# addrA,  46 addrB1,  37, addrB2,  45
+# newcol
+# addrA,  54 addrB1,  38, addrB2,  46
+# addrA,  62 addrB1,  39, addrB2,  47
+# addrA,   7 addrB1,   0, addrB2,   8
+# addrA,  15 addrB1,   1, addrB2,   9
+# addrA,  23 addrB1,   2, addrB2,  10
+# addrA,  31 addrB1,   3, addrB2,  11
+# addrA,  39 addrB1,   4, addrB2,  12
+# addrA,  47 addrB1,   5, addrB2,  13
+# newcol
+# addrA,  55 addrB1,   6, addrB2,  14
+# addrA,  63 addrB1,   7, addrB2,  15
+# addrA,   7 addrB1,  16, addrB2,  24
+# addrA,  15 addrB1,  17, addrB2,  25
+# addrA,  23 addrB1,  18, addrB2,  26
+# addrA,  31 addrB1,  19, addrB2,  27
+# addrA,  39 addrB1,  20, addrB2,  28
+# addrA,  47 addrB1,  21, addrB2,  29
+# newcol
+# addrA,  55 addrB1,  22, addrB2,  30
+# addrA,  63 addrB1,  23, addrB2,  31
+# addrA,   7 addrB1,  32, addrB2,  40
+# addrA,  15 addrB1,  33, addrB2,  41
+# addrA,  23 addrB1,  34, addrB2,  42
+# addrA,  31 addrB1,  35, addrB2,  43
+# addrA,  39 addrB1,  36, addrB2,  44
+# addrA,  47 addrB1,  37, addrB2,  45
+# newcol
+# addrA,  55 addrB1,  38, addrB2,  46
+# addrA,  63 addrB1,  39, addrB2,  47
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# newcol
+# ** Note: $stop    : C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/tb/tb_AddrReg.v(44)
+#    Time: 10170 ps  Iteration: 0  Instance: /tb_AddrReg
+# Break in Module tb_AddrReg at C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/tb/tb_AddrReg.v line 44
+# Compile of tb_AddrReg.v was successful.
+# Compile of AddrReg_DP.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_AddrReg
+# Loading work.AddrReg_DP
+# Compile of tb_AddrReg.v was successful.
+# Compile of AddrReg_DP.v was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+# addrA,   0 addrB1,   0, addrB2,   8
+# addrA,   8 addrB1,   1, addrB2,   9
+# addrA,  16 addrB1,   2, addrB2,  10
+# addrA,  24 addrB1,   3, addrB2,  11
+# addrA,  32 addrB1,   4, addrB2,  12
+# addrA,  40 addrB1,   5, addrB2,  13
+# addrA,  48 addrB1,   6, addrB2,  14
+# addrA,  56 addrB1,   7, addrB2,  15
+# addrA,   0 addrB1,  16, addrB2,  24
+# addrA,   8 addrB1,  17, addrB2,  25
+# addrA,  16 addrB1,  18, addrB2,  26
+# addrA,  24 addrB1,  19, addrB2,  27
+# addrA,  32 addrB1,  20, addrB2,  28
+# addrA,  40 addrB1,  21, addrB2,  29
+# addrA,  48 addrB1,  22, addrB2,  30
+# addrA,  56 addrB1,  23, addrB2,  31
+# addrA,   0 addrB1,  32, addrB2,  40
+# addrA,   8 addrB1,  33, addrB2,  41
+# addrA,  16 addrB1,  34, addrB2,  42
+# addrA,  24 addrB1,  35, addrB2,  43
+# addrA,  32 addrB1,  36, addrB2,  44
+# addrA,  40 addrB1,  37, addrB2,  45
+# addrA,  48 addrB1,  38, addrB2,  46
+# addrA,  56 addrB1,  39, addrB2,  47
+# addrA,   1 addrB1,   0, addrB2,   8
+# addrA,   9 addrB1,   1, addrB2,   9
+# addrA,  17 addrB1,   2, addrB2,  10
+# addrA,  25 addrB1,   3, addrB2,  11
+# addrA,  33 addrB1,   4, addrB2,  12
+# addrA,  41 addrB1,   5, addrB2,  13
+# addrA,  49 addrB1,   6, addrB2,  14
+# addrA,  57 addrB1,   7, addrB2,  15
+# addrA,   1 addrB1,  16, addrB2,  24
+# addrA,   9 addrB1,  17, addrB2,  25
+# addrA,  17 addrB1,  18, addrB2,  26
+# addrA,  25 addrB1,  19, addrB2,  27
+# addrA,  33 addrB1,  20, addrB2,  28
+# addrA,  41 addrB1,  21, addrB2,  29
+# addrA,  49 addrB1,  22, addrB2,  30
+# addrA,  57 addrB1,  23, addrB2,  31
+# addrA,   1 addrB1,  32, addrB2,  40
+# addrA,   9 addrB1,  33, addrB2,  41
+# addrA,  17 addrB1,  34, addrB2,  42
+# addrA,  25 addrB1,  35, addrB2,  43
+# addrA,  33 addrB1,  36, addrB2,  44
+# addrA,  41 addrB1,  37, addrB2,  45
+# addrA,  49 addrB1,  38, addrB2,  46
+# addrA,  57 addrB1,  39, addrB2,  47
+# addrA,   2 addrB1,   0, addrB2,   8
+# addrA,  10 addrB1,   1, addrB2,   9
+# addrA,  18 addrB1,   2, addrB2,  10
+# addrA,  26 addrB1,   3, addrB2,  11
+# addrA,  34 addrB1,   4, addrB2,  12
+# addrA,  42 addrB1,   5, addrB2,  13
+# addrA,  50 addrB1,   6, addrB2,  14
+# addrA,  58 addrB1,   7, addrB2,  15
+# addrA,   2 addrB1,  16, addrB2,  24
+# addrA,  10 addrB1,  17, addrB2,  25
+# addrA,  18 addrB1,  18, addrB2,  26
+# addrA,  26 addrB1,  19, addrB2,  27
+# addrA,  34 addrB1,  20, addrB2,  28
+# addrA,  42 addrB1,  21, addrB2,  29
+# addrA,  50 addrB1,  22, addrB2,  30
+# addrA,  58 addrB1,  23, addrB2,  31
+# addrA,   2 addrB1,  32, addrB2,  40
+# addrA,  10 addrB1,  33, addrB2,  41
+# addrA,  18 addrB1,  34, addrB2,  42
+# addrA,  26 addrB1,  35, addrB2,  43
+# addrA,  34 addrB1,  36, addrB2,  44
+# addrA,  42 addrB1,  37, addrB2,  45
+# addrA,  50 addrB1,  38, addrB2,  46
+# addrA,  58 addrB1,  39, addrB2,  47
+# addrA,   3 addrB1,   0, addrB2,   8
+# addrA,  11 addrB1,   1, addrB2,   9
+# addrA,  19 addrB1,   2, addrB2,  10
+# addrA,  27 addrB1,   3, addrB2,  11
+# addrA,  35 addrB1,   4, addrB2,  12
+# addrA,  43 addrB1,   5, addrB2,  13
+# addrA,  51 addrB1,   6, addrB2,  14
+# addrA,  59 addrB1,   7, addrB2,  15
+# addrA,   3 addrB1,  16, addrB2,  24
+# addrA,  11 addrB1,  17, addrB2,  25
+# addrA,  19 addrB1,  18, addrB2,  26
+# addrA,  27 addrB1,  19, addrB2,  27
+# addrA,  35 addrB1,  20, addrB2,  28
+# addrA,  43 addrB1,  21, addrB2,  29
+# addrA,  51 addrB1,  22, addrB2,  30
+# addrA,  59 addrB1,  23, addrB2,  31
+# addrA,   3 addrB1,  32, addrB2,  40
+# addrA,  11 addrB1,  33, addrB2,  41
+# addrA,  19 addrB1,  34, addrB2,  42
+# addrA,  27 addrB1,  35, addrB2,  43
+# addrA,  35 addrB1,  36, addrB2,  44
+# addrA,  43 addrB1,  37, addrB2,  45
+# addrA,  51 addrB1,  38, addrB2,  46
+# addrA,  59 addrB1,  39, addrB2,  47
+# addrA,   4 addrB1,   0, addrB2,   8
+# addrA,  12 addrB1,   1, addrB2,   9
+# addrA,  20 addrB1,   2, addrB2,  10
+# addrA,  28 addrB1,   3, addrB2,  11
+# addrA,  36 addrB1,   4, addrB2,  12
+# addrA,  44 addrB1,   5, addrB2,  13
+# addrA,  52 addrB1,   6, addrB2,  14
+# addrA,  60 addrB1,   7, addrB2,  15
+# addrA,   4 addrB1,  16, addrB2,  24
+# addrA,  12 addrB1,  17, addrB2,  25
+# addrA,  20 addrB1,  18, addrB2,  26
+# addrA,  28 addrB1,  19, addrB2,  27
+# addrA,  36 addrB1,  20, addrB2,  28
+# addrA,  44 addrB1,  21, addrB2,  29
+# addrA,  52 addrB1,  22, addrB2,  30
+# addrA,  60 addrB1,  23, addrB2,  31
+# addrA,   4 addrB1,  32, addrB2,  40
+# addrA,  12 addrB1,  33, addrB2,  41
+# addrA,  20 addrB1,  34, addrB2,  42
+# addrA,  28 addrB1,  35, addrB2,  43
+# addrA,  36 addrB1,  36, addrB2,  44
+# addrA,  44 addrB1,  37, addrB2,  45
+# addrA,  52 addrB1,  38, addrB2,  46
+# addrA,  60 addrB1,  39, addrB2,  47
+# addrA,   5 addrB1,   0, addrB2,   8
+# addrA,  13 addrB1,   1, addrB2,   9
+# addrA,  21 addrB1,   2, addrB2,  10
+# addrA,  29 addrB1,   3, addrB2,  11
+# addrA,  37 addrB1,   4, addrB2,  12
+# addrA,  45 addrB1,   5, addrB2,  13
+# addrA,  53 addrB1,   6, addrB2,  14
+# addrA,  61 addrB1,   7, addrB2,  15
+# addrA,   5 addrB1,  16, addrB2,  24
+# addrA,  13 addrB1,  17, addrB2,  25
+# addrA,  21 addrB1,  18, addrB2,  26
+# addrA,  29 addrB1,  19, addrB2,  27
+# addrA,  37 addrB1,  20, addrB2,  28
+# addrA,  45 addrB1,  21, addrB2,  29
+# addrA,  53 addrB1,  22, addrB2,  30
+# addrA,  61 addrB1,  23, addrB2,  31
+# addrA,   5 addrB1,  32, addrB2,  40
+# addrA,  13 addrB1,  33, addrB2,  41
+# addrA,  21 addrB1,  34, addrB2,  42
+# addrA,  29 addrB1,  35, addrB2,  43
+# addrA,  37 addrB1,  36, addrB2,  44
+# addrA,  45 addrB1,  37, addrB2,  45
+# addrA,  53 addrB1,  38, addrB2,  46
+# addrA,  61 addrB1,  39, addrB2,  47
+# addrA,   6 addrB1,   0, addrB2,   8
+# addrA,  14 addrB1,   1, addrB2,   9
+# addrA,  22 addrB1,   2, addrB2,  10
+# addrA,  30 addrB1,   3, addrB2,  11
+# addrA,  38 addrB1,   4, addrB2,  12
+# addrA,  46 addrB1,   5, addrB2,  13
+# addrA,  54 addrB1,   6, addrB2,  14
+# addrA,  62 addrB1,   7, addrB2,  15
+# addrA,   6 addrB1,  16, addrB2,  24
+# addrA,  14 addrB1,  17, addrB2,  25
+# addrA,  22 addrB1,  18, addrB2,  26
+# addrA,  30 addrB1,  19, addrB2,  27
+# addrA,  38 addrB1,  20, addrB2,  28
+# addrA,  46 addrB1,  21, addrB2,  29
+# addrA,  54 addrB1,  22, addrB2,  30
+# addrA,  62 addrB1,  23, addrB2,  31
+# addrA,   6 addrB1,  32, addrB2,  40
+# addrA,  14 addrB1,  33, addrB2,  41
+# addrA,  22 addrB1,  34, addrB2,  42
+# addrA,  30 addrB1,  35, addrB2,  43
+# addrA,  38 addrB1,  36, addrB2,  44
+# addrA,  46 addrB1,  37, addrB2,  45
+# addrA,  54 addrB1,  38, addrB2,  46
+# addrA,  62 addrB1,  39, addrB2,  47
+# addrA,   7 addrB1,   0, addrB2,   8
+# addrA,  15 addrB1,   1, addrB2,   9
+# addrA,  23 addrB1,   2, addrB2,  10
+# addrA,  31 addrB1,   3, addrB2,  11
+# addrA,  39 addrB1,   4, addrB2,  12
+# addrA,  47 addrB1,   5, addrB2,  13
+# addrA,  55 addrB1,   6, addrB2,  14
+# addrA,  63 addrB1,   7, addrB2,  15
+# addrA,   7 addrB1,  16, addrB2,  24
+# addrA,  15 addrB1,  17, addrB2,  25
+# addrA,  23 addrB1,  18, addrB2,  26
+# addrA,  31 addrB1,  19, addrB2,  27
+# addrA,  39 addrB1,  20, addrB2,  28
+# addrA,  47 addrB1,  21, addrB2,  29
+# addrA,  55 addrB1,  22, addrB2,  30
+# addrA,  63 addrB1,  23, addrB2,  31
+# addrA,   7 addrB1,  32, addrB2,  40
+# addrA,  15 addrB1,  33, addrB2,  41
+# addrA,  23 addrB1,  34, addrB2,  42
+# addrA,  31 addrB1,  35, addrB2,  43
+# addrA,  39 addrB1,  36, addrB2,  44
+# addrA,  47 addrB1,  37, addrB2,  45
+# addrA,  55 addrB1,  38, addrB2,  46
+# addrA,  63 addrB1,  39, addrB2,  47
+# ** Note: $stop    : C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/tb/tb_AddrReg.v(37)
+#    Time: 5200 ps  Iteration: 0  Instance: /tb_AddrReg
+# Break in Module tb_AddrReg at C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/tb/tb_AddrReg.v line 37
+# End time: 17:23:04 on Mar 06,2025, Elapsed time: 4:50:01
+# Errors: 0, Warnings: 0

@@ -1,9 +1,9 @@
-{C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/ctrl_mat_mult.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/ctrl_mat_mult.v}
+{C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/Areg.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/Areg.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module ctrl_mat_mult
+-- Compiling module Areg
 
 Top level modules:
-	ctrl_mat_mult
+	Areg
 
 } {} {}} {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/tb_files/tb_lab6.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/tb_files/tb_lab6.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -12,19 +12,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	tb_lab6
 
-} {} {}} {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMA.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMA.v}
+} {} {}} {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/Breg.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/Breg.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module RAMA
+-- Compiling module Breg
 
 Top level modules:
-	RAMA
+	Breg
 
-} {} {}} {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/AddrReg.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/AddrReg.v}
+} {} {}} {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMOUTPUT.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMOUTPUT.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module AddrReg
+-- Compiling module RAMOUTPUT
 
 Top level modules:
-	AddrReg
+	RAMOUTPUT
 
 } {} {}} {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/MAC.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/MAC.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -33,12 +33,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	MAC
 
-} {} {}} {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/Creg.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/Creg.v}
+} {} {}} {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMA.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMA.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module Creg
+-- Compiling module RAMA
 
 Top level modules:
-	Creg
+	RAMA
 
 } {} {}} {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMB.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task2/synthesis/Components/RAMB.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016

@@ -1,0 +1,8 @@
+{C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/tb/tb_AddrReg.v} {1 {vlog -work work -stats=none {C:/Users/iyung/Documents/School/UC Davis/EEC 180/lab6/Task3/tb/tb_AddrReg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_AddrReg
+
+Top level modules:
+	tb_AddrReg
+
+} {} {}}
