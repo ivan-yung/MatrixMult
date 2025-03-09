@@ -1,6 +1,7 @@
 module tb_AddrReg;
     reg Load, reset, clk;
-    wire [7:0] addrA; // Address to access A
+    wire [7:0] addrA1; // Address to access A
+    wire [7:0] addrA2; // Address to access A
     wire [7:0] addrB1;  // Address to access B
     wire [7:0] addrB2;
 
@@ -8,7 +9,8 @@ module tb_AddrReg;
         .clk(clk),
         .Load(Load),
         .reset(reset),
-        .addrA(addrA),
+        .addrA1(addrA1),
+        .addrA2(addrA2),
         .addrB1(addrB1),
         .addrB2(addrB2)
     );
@@ -21,8 +23,8 @@ module tb_AddrReg;
 
     initial begin
 
-        $monitor("addrA, %d addrB1, %d, addrB2, %d", 
-            addrA, addrB1, addrB2);
+        $monitor("addrA1 %d, addrA2 %d, addrB1 %d, addrB2 %d", 
+            addrA1, addrA2, addrB1, addrB2);
 
         reset = 1; // reset 
         Load = 0;

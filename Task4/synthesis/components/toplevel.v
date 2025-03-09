@@ -18,8 +18,8 @@ module toplevel (
         .clk(clk),
         // .we(1'b0),
         .we(Load),
-        .addr(addrA1),
-        .addr(addrA2),
+        .addr1(addrA1),
+        .addr2(addrA2),
         .data_in(8'b0),
         .data_out_1(data_outA1),
         .data_out_2(data_outA2)
@@ -82,29 +82,30 @@ module toplevel (
         .A(data_outA2),
         .B(data_outB1),
         .clk(clk),
+        .macc_clear(macc_clear),
 
         .acc(dot_prod3)
     );
 
-    Mac M3(
+    MAC M3(
         .A(data_outA2),
         .B(data_outB2),
         .clk(clk),
+        .macc_clear(macc_clear),
 
         .acc(dot_prod4)
     );
 
     buffer buff (
         .clk(clk),
-        .Load(read_in_C),
         .reset(reset),
-        .clock_count(clock_count),
+        .mult_count(clock_count),
         .prod1(dot_prod1),
         .prod2(dot_prod2),
         .prod3(dot_prod3),
         .prod4(dot_prod4),
         .out(buffer_out),
-        .writeToReg(writeToReg)    
+        .Load_Creg(writeToReg)    
     );
 
     ctrl_mat_mult_DP U0(
