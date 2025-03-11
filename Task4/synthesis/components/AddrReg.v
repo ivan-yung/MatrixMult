@@ -1,4 +1,4 @@
-module AddrReg_DP ( 
+module AddrReg_OP ( 
     input clk, Load, reset,
     output reg [7:0] addrA1, // Address to access A1
     output reg [7:0] addrA2, // Address to access A2

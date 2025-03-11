@@ -1,4 +1,4 @@
-module ctrl_mat_mult_DP (
+module ctrl_mat_mult_OP (
 input start, reset, clk,
 
     output reg [10:0] clock_count,
@@ -73,7 +73,7 @@ reg [1:0] state, nextstate;
                     wireOut_d = 1;
                     nextstate = S1;
 
-                end else if (mult_count < 136) begin
+                end else if (mult_count < 133) begin
                     //multiply again
                     nextstate = S1;
 

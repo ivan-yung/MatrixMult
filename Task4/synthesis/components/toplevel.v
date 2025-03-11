@@ -37,13 +37,13 @@ module toplevel (
 
     RAMOUTPUT RAMOUTPUT (
         .clk(clk),
-        .mwr(read_in_C),
+        .mwr(writeToReg),
         .addr(addrC),
         .mdi(buffer_out),
         .mdo(out_allegedly)
     );
 
-    AddrReg_DP AR0 (
+    AddrReg_OP AR0 (
         .clk(clk),
         .Load(Load),
         .reset(reset),
@@ -53,7 +53,7 @@ module toplevel (
         .addrB2(addrB2)
     );
 
-    Creg CR0( //Cout instantiation
+    Creg_OP CR0( //Cout instantiation
         .clk(clk),
         .Load(writeToReg),
         .reset(reset),
@@ -96,7 +96,7 @@ module toplevel (
         .acc(dot_prod4)
     );
 
-    buffer buff (
+    buffer_OP buff (
         .clk(clk),
         .reset(reset),
         .mult_count(clock_count),
@@ -108,7 +108,7 @@ module toplevel (
         .Load_Creg(writeToReg)    
     );
 
-    ctrl_mat_mult_DP U0(
+    ctrl_mat_mult_OP U0(
         .start(start),
         .clk(clk),
         .reset(reset),
